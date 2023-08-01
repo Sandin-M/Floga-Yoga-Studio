@@ -21,6 +21,7 @@ header {
     padding: 0 1rem;
     z-index: 99;
     width: 100%;
+    border-bottom: solid 2px #fffeff;
 
     
 }
@@ -55,4 +56,12 @@ header a {
 ul {
     list-style-type: none;
 
+}
+
+h1 {
+    letter-spacing: 1px;
+}
+
+#menu {
+    font-size: 18px;
 }
