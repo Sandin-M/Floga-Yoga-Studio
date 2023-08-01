@@ -31,3 +31,13 @@ main {
 footer {
     background-color: gray;
 }
+
+header img {
+    height: 110px ;
+    width: 170px;
+    margin-left: 20px;
+    margin-top: 20px;
+    
+    
+    
+}
