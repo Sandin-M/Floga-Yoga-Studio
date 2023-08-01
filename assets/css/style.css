@@ -17,6 +17,7 @@ body {
 
 header {
     background-color: darkgreen;
+    
 }
 
 main {
@@ -37,7 +38,17 @@ header img {
     width: 170px;
     margin-left: 20px;
     margin-top: 20px;
+
+}
+
+header nav {
+    display: flex;
+    justify-content: space-between;
+    flex-direction: row;
     
-    
-    
+}
+
+header a {
+    text-decoration:none;
+    color: #fffeff;
 }
