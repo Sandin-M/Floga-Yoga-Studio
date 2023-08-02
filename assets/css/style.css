@@ -16,7 +16,7 @@ body {
 }
 
 header {
-    background-color: #57681e;
+    background: linear-gradient(to right, white -30%, #57681e);
     position: fixed;
     padding: 0 1rem;
     z-index: 99;
@@ -33,6 +33,8 @@ header {
     #logo {
 
         display: flex;
+        text-align: center;
+
     }
    
     
@@ -43,6 +45,7 @@ header {
 header p {
     font-size: 50px;
 }
+
 
    
     
@@ -81,7 +84,7 @@ footer {
 
 nav {
     position: absolute;
-    background-color: darkgreen;
+    background:linear-gradient(to right, white -30%, #57681e);
     left: 0;
     width: 100%;
     display: none;
