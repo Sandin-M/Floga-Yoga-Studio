@@ -30,12 +30,23 @@ header {
         font-size: 30px;
     }
     
+    #logo {
 
+        display: flex;
+    }
    
     
 
     
 }
+
+header p {
+    font-size: 50px;
+}
+
+   
+    
+
 
 main {
     background-color: brown;
@@ -49,6 +60,9 @@ main {
 
 footer {
     background-color: gray;
+    font-size: 35px;
+    padding-top: 5px;
+    padding-bottom: 5px;
 }
 
 
@@ -57,11 +71,12 @@ footer {
 nav {
     position: absolute;
     background-color: darkgreen;
-    width: 100%;
     left: 0;
-    padding: 0 1rem;
+    width: 100%;
     display: none;
     top: 100%;
+    text-align: right;
+
     
 }
 
@@ -94,9 +109,18 @@ h1 {
 
 #menu {
     font-size: 18px;
+    
 }
 
 #social-media {
     display: flex;
     justify-content: space-around;
+}
+
+
+nav ul li {
+    margin-top: 2px;
+    margin-bottom: 2px;
+    padding-right: 10px;
+
 }
