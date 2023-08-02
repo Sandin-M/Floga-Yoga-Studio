@@ -85,3 +85,8 @@ h1 {
 #menu {
     font-size: 18px;
 }
+
+#social-media {
+    display: flex;
+    justify-content: space-around;
+}
