@@ -22,6 +22,9 @@ header {
     z-index: 99;
     width: 100%;
     border-bottom: solid 2px #fffeff;
+    display: flex;
+    justify-content: space-between;
+    align-items: baseline;
     
 
     
@@ -50,13 +53,19 @@ nav {
     left: 0;
     padding: 0 1rem;
     display: none;
+    top: 100%;
     
 }
 
+/*Nav toggle function*/
+#toggle:checked~nav {
+    display: block;
+}
 
+#toggle {
+    display: none;
+}
 
-
-    
 
 header a {
     text-decoration:none;
