@@ -257,3 +257,10 @@ section a {
 #founder{
     margin-top: 50px;
 }
+
+#about-photo {
+    margin: 20px 10px 10px 10px;
+    background: url(../images/man2.jpg) no-repeat center center/cover;
+    height: 300px;
+
+}
