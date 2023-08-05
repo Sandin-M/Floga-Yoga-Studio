@@ -142,6 +142,7 @@ h1 {
     font-size: 38px;
     letter-spacing: 1px;
     margin-bottom: 4px;
+    
 }
 
 #menu {
@@ -244,4 +245,15 @@ section a {
 }
 
 
+.about-text{
+    margin-top: 20px;
+}
 
+.page-header{
+    margin-top: 10px;
+}
+
+
+#founder{
+    margin-top: 50px;
+}
