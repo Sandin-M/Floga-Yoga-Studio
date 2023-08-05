@@ -228,10 +228,20 @@ section a {
     font-size: 27px;
 }
 
+#class-photo-1 {
+    background: url(../images/hatha.png) no-repeat center center/cover;
+}
 
 
 
+#class-photo-2 {
+    background: url(../images/vinyasa.jpeg) no-repeat center center/cover;
+}
 
+
+#class-photo-3 {
+    background: url(../images/kundalini.webp) no-repeat center center/cover;
+}
 
 
 
