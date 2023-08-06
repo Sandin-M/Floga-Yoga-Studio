@@ -67,7 +67,10 @@ main {
 #hero {
     height: 800px;
     width: 100%;
-    background:url(../images/hero-image.jpg) no-repeat center center/cover;
+    background-image :url(../images/hero-image.jpg);
+    background-size: cover;
+    background-position-x:35%;
+    
     
     
 }
@@ -275,4 +278,9 @@ section a {
 .Google-maps{
     height: 400px;
     margin:20px 20px 20px 10px;
+}
+
+.hero-phrase{
+    font-size: 30px;
+    text-align: center;
 }
