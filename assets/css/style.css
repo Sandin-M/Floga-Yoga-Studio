@@ -16,7 +16,7 @@ body {
 }
 
 header {
-    background: linear-gradient(to right, white -30%, #57681e);
+    background: linear-gradient(to right, white -30%, #05ae91);
     position: fixed;
     padding: 0 1rem;
     z-index: 99;
@@ -111,7 +111,7 @@ hr{
 
 nav {
     position: absolute;
-    background:linear-gradient(to right, white -30%, #57681e);
+    background:linear-gradient(to right, white -30%, #05ae91);
     left: 0;
     width: 100%;
     display: none;
@@ -171,7 +171,7 @@ nav ul li {
 }
 
 .pages {
-    background-color: #8a947c;
+    background-color: #05ae91;
     height: 100%;
     text-align: center;
 }
@@ -236,7 +236,7 @@ section a {
 }
 
 #class-photo-1 {
-    background: url(../images/hatha.png) no-repeat center center/cover;
+    background: url(../images/hatha.jpeg) no-repeat center center/cover;
     height: 150px;
 }
 
@@ -289,11 +289,11 @@ section a {
 
 #homepage-section{
     height: fit-content;
-    background-color: red;
+    background-color: #05ae91;
     color:black;
 }
 
-h2{
+.homepage-h2{
     text-align: center;
     padding-top: 5px;
 }
@@ -301,4 +301,8 @@ h2{
 .homepage-about{
     text-align: center;
     margin-top: 10px;
+}
+
+.classes-h2 {
+    margin-top: 70px;
 }
