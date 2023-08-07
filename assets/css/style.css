@@ -58,7 +58,8 @@ main {
     flex-grow: 1;
     flex-shrink: 0;
     flex-basis: auto;
-    margin-top: 60px;
+    width:100%;
+   /* margin-top: 60px;*/
     
 
 }
@@ -277,10 +278,27 @@ section a {
 
 .Google-maps{
     height: 400px;
+    width:200px
     margin:20px 20px 20px 10px;
 }
 
 .hero-phrase{
     font-size: 30px;
     text-align: center;
+}
+
+#homepage-section{
+    height: fit-content;
+    background-color: red;
+    color:black;
+}
+
+h2{
+    text-align: center;
+    padding-top: 5px;
+}
+
+.homepage-about{
+    text-align: center;
+    margin-top: 10px;
 }
