@@ -29,8 +29,6 @@
             <p id="flow-symbol">≈</p>
             <a href="index.html">
                 <h1>floga</h1>
-
-
             </a>
         </div>
 
@@ -38,9 +36,9 @@
         <label for="toggle" id="menu-bars"><i class="fa-solid fa-bars"></i></label>
         <nav>
             <ul id="menu">
-                <li> <a href="">Home</a> </li>
-                <li> <a href="">Classes</a> </li>
-                <li> <a href="">Contact</a> </li>
+                <li> <a href="index.html">Home</a> </li>
+                <li> <a href="classes.html">Classes</a> </li>
+                <li> <a href="contact.html">Contact</a> </li>
         </nav>
         </ul>
 
@@ -50,13 +48,32 @@
     <!--Main Content-->
     <main class="pages">
         <section>
-            <h1 class="page-header">Where to find us</h1>
-            <!--Google maps-->
-            <div class="Google-maps">
-                <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2662.4969520824384!2d11.5915124!3d48.139223799999996!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x479e75f8a6adf907%3A0x990f4156a341c36b!2sThe%20STUDIO%20Lehel!5e0!3m2!1sde!2sde!4v1691279402727!5m2!1sde!2sde"
-                width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy"
-                referrerpolicy="no-referrer-when-downgrade"></iframe>
-            </div>
+            <h2 class="pages-h2">Send us a message</h2>
+
+            <form id="contact-form" action="thankyou.html" method="get">
+                <div>
+                    <label for="fname">First Name:</label>
+                    <input type="text" id="fname" name="fname">
+                </div>
+
+                <br>
+
+                <div>
+                    <label for="lname">Last Name:</label>
+                    <input type="text" id="lname" name="lname">
+                </div>
+
+                <br>
+
+                <div>
+                    <label for="message">Message:</label>
+                    <input id="message" name="message" cols="30" rows="10">
+                </div>
+
+                <input type="reset">
+                <input type="submit">
+            
+            </form>
 
         </section>
     </main>
