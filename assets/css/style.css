@@ -71,6 +71,10 @@ footer {
     text-align: center;
 }
 
+.footer-adress{
+    font-size: 16px;
+}
+
 hr {
     width:70%;
     margin: 0 auto;
@@ -84,6 +88,10 @@ hr {
 
 #copyright {
     margin-top: 60px;
+}
+
+.educational{
+    font-size: 16px;
 }
 
 /*Nav style dropdown toggle*/
@@ -185,6 +193,7 @@ section a {
 
 #team-photo{
     height: 150px;
+    background: url(../images/man.jpg) no-repeat center center/cover;
 }
 
 
