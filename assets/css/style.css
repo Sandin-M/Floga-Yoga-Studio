@@ -29,6 +29,11 @@ header {
         font-size: 30px; /*Why do I get red wavy underline here?*/
     }
 
+    h1{
+        font-family: 'Architects Daughter', cursive; /*Why doesnt the font work*/
+
+    }
+
 }
 
 #logo {
@@ -50,6 +55,10 @@ main {
     flex-basis: auto;
     width:100%;
    /* margin-top: 60px;*/
+}
+
+.homepage-h2{
+    font-family: 'Poiret One', cursive;
 }
 
 /*Hero Image*/
@@ -225,19 +234,15 @@ section a {
 #homepage-section{
     height: fit-content;
     background-color: #05ae91;
-    color:black;
+    color:white;
 }
 
 .homepage-h2{
     text-align: center;
-    padding-top: 5px;
+   
 }
 
 .homepage-about{
     text-align: center;
     margin-top: 10px;
-}
-
-.pages-h2 {
-    margin-top: 70px;
 }
