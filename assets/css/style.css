@@ -29,11 +29,6 @@ header {
         font-size: 30px; /*Why do I get red wavy underline here?*/
     }
 
-    h1 {
-        font-family: 'Architects Daughter', cursive;  /*Styles dont work*/
-        margin-top: 5px;
-        font-size: 43px;
-    }
 }
 
 #logo {
@@ -174,6 +169,7 @@ nav ul li {
 }
 
 .about-classes{
+    font-family: 'Comfortaa', cursive;
     color: black;
     padding-left: 2px;
     background-color: white; /*see about border white white and see about font for vinyasa hatha etc.*/
@@ -284,10 +280,11 @@ iframe {
 }
 
 
-#homepage-section{
+#homepage-section {
     height: fit-content;
     background-color: #05ae91;
-    color:white;
+    color: white;
+    padding: 10px;
 }
 
 .homepage-h2{
@@ -325,6 +322,20 @@ iframe {
 
 a {
     font-family: 'Comfortaa', cursive;
+}
+
+h1 {
+    font-family: 'Architects Daughter', cursive;
+    margin-top: 5px;
+    font-size: 43px;
+}
+
+#about-photo {
+    background: url(../images/man2.jpg) center center/cover;
+    height: 190px;
+    width: 100%;
+    margin-top: 20px;
+    border: solid 2px white;
 }
 
 
