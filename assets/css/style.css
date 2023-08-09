@@ -65,9 +65,11 @@ main {
 #hero {
     height: 800px;
     width: 100%;
-    background-image :url(../images/hero-image.jpg);
+    background-image: url(../images/hero-image.jpg);
     background-size: cover;
-    background-position-x:35%;
+    background-position-x: 43%;
+    margin-top: 60px;
+    position: relative;
 }
 
 footer {
@@ -221,15 +223,25 @@ section a {
 }
 
 .Google-maps{
-    height: 400px;
-    width:200px
+    width: 300px;
     margin:20px 20px 20px 10px; /*Why the red wavy underscore line*/
 }
 
+iframe {
+    width: 90%;
+    margin: 5%;
+}
+
 .hero-phrase{
+    
     font-size: 30px;
     text-align: center;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
 }
+
 
 #homepage-section{
     height: fit-content;
