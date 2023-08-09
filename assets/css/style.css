@@ -47,14 +47,10 @@ header p {
 
 
 main {
-    /*background-image: url(assets/images/hero-image.jpg);
-    background-position: center;
-    background-size: cover;*/
     flex-grow: 1;
     flex-shrink: 0;
     flex-basis: auto;
     width:100%;
-   /* margin-top: 60px;*/
 }
 
 .homepage-h2{
@@ -70,6 +66,7 @@ main {
     background-position-x: 43%;
     margin-top: 60px;
     position: relative;
+    border-bottom: 2px solid white;
 }
 
 footer {
@@ -95,10 +92,12 @@ hr {
     font-size: 13px;
     text-decoration: none;
     color: white;
+    display: block;
+    margin: 10px;
 }
 
 #copyright {
-    margin-top: 60px;
+    margin-top: 35px;
 }
 
 .educational{
@@ -167,6 +166,13 @@ nav ul li {
     margin-top:60px;
 }
 
+.pages>.contact-section {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
 .about-classes{
     color: black;
     padding-left: 2px;
@@ -177,8 +183,13 @@ nav ul li {
 }
 
 .class-photo-divs {
-    border:solid 2px white;
-    margin:0 10px 0 10px;
+    border: solid 2px white;
+    margin: 0 10px 0 10px;
+    height: 32vw;
+}
+
+.class-photo-divs {
+    height: 32vw;
 }
 
 section a {
@@ -196,6 +207,7 @@ section a {
 #class-photo-2 {
     background: url(../images/vinyasa.jpeg) no-repeat center center/cover;
     height: 150px;
+    background-position-y: 0px;
 }
 
 #class-photo-3 {
@@ -223,6 +235,11 @@ section a {
     margin-top: 50px;
 }
 
+.founder,
+.find-us {
+    margin-top: 10px;
+}
+
 .Google-maps{
     width: 300px;
     margin:20px 20px 20px 10px; /*Why the red wavy underscore line*/
@@ -233,8 +250,11 @@ iframe {
     margin: 5%;
 }
 
+#social-media i::before {
+    color: white;
+}
+
 .hero-phrase{
-    
     font-size: 30px;
     text-align: center;
     position: absolute;
@@ -277,4 +297,26 @@ iframe {
 .homepage-about{
     text-align: center;
     margin-top: 10px;
+}
+
+#contact-form,
+.buttons {
+    margin-top: 10px;
+}
+
+#contact-form input[type="text"] {
+    width: 260px;
+}
+
+#message {
+    height: 60px;
+}
+
+.contact-section {
+    width: 350px;
+}
+
+#contact-form label {
+    display: inline-block;
+    width: 85px;
 }
