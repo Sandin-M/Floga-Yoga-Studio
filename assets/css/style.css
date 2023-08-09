@@ -50,6 +50,7 @@ main {
 
 .homepage-h2{
     font-family: 'Poiret One', cursive;
+    text-align: center;
 }
 
 /*Hero Image*/
@@ -158,12 +159,12 @@ nav ul li {
     background-color: #05ae91;
     height: 100%;
     text-align: center;
-    margin-top:60px;
+    margin-top:69px;
 }
 
 .pages>.contact-section {
     position: absolute;
-    top: 50%;
+    top: 40%;
     left: 50%;
     transform: translate(-50%, -50%);
 }
@@ -287,11 +288,6 @@ iframe {
     padding: 10px;
 }
 
-.homepage-h2{
-    text-align: center;
-   
-}
-
 .homepage-about{
     font-family: 'Comfortaa', cursive;
     text-align: center;
@@ -338,4 +334,11 @@ h1 {
     border: solid 2px white;
 }
 
+.label {
+    font-family: 'Comfortaa', cursive;
+    font-size: 14px;
+}
 
+#tymessage {
+    
+}
