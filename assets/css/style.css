@@ -340,5 +340,8 @@ h1 {
 }
 
 #tymessage {
-    
+    position: absolute;
+    top: 25%;
+    font-size: 30px;
+    font-family: 'Comfortaa', cursive;
 }
