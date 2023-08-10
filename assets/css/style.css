@@ -260,25 +260,6 @@ iframe {
     transform: translate(-50%, -50%);
 }
 
-.hero-phrase>button {
-    background: transparent;
-    padding: 10px;
-    border: 2px solid white;
-}
-
-.hero-phrase>button>a {
-    text-decoration: none;
-    color: white;
-}
-
-.hero-phrase>button:hover {
-    background: white;
-}
-
-.hero-phrase>button:hover>a {
-    color: #05ae91;
-}
-
 #homepage-section {
     height: fit-content;
     background-color: #05ae91;
@@ -344,6 +325,15 @@ h1 {
     font-family: 'Comfortaa', cursive;
 }
 
+#button {
+    background: transparent;
+    padding: 10px;
+    border: 2px solid white;
+    text-decoration: none;
+    color: white;
+    font-size: 20px;
+}
+
 /*Media query Tablet*/
 @media (min-width: 768px) {
     #about-photo {
@@ -370,7 +360,6 @@ h1 {
 
     .about-classes {
         margin: 0 80px 15px 80px;
-        height:;
     }
 
     #tymessage {
@@ -429,6 +418,53 @@ h1 {
     .about-classes {
         margin: 0 220px 20px 220px;
 
+    }
+
+}
+
+@media (min-width:2200px) {
+    #about-photo {
+        height: 374px;
+        width: 671px; 
+        margin-left: 725px;
+    }
+
+    #class-photo-1 {
+        margin: 0 400px 0 400px;
+        height: 560px;
+
+    }
+
+    #class-photo-2 {
+        margin: 0 400px 0 400px;
+        height: 560px;
+
+    }
+
+    #class-photo-3 {
+        margin: 0 400px 0 400px;
+        height: 560px;
+
+    }
+
+    .about-classes {
+        margin: 0 400px 30px 400px;
+    }
+
+    h3 {
+        font-size: 35px;
+    }
+
+    p {
+        font-size: 25px;
+    }
+
+    #team-photo {
+       margin: 0 400px 0 400px;
+    }
+
+    .team-social-media {
+        font-size: 70px;
     }
 
 }
