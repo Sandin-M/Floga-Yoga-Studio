@@ -432,19 +432,16 @@ h1 {
     #class-photo-1 {
         margin: 0 400px 0 400px;
         height: 560px;
-
     }
 
     #class-photo-2 {
         margin: 0 400px 0 400px;
         height: 560px;
-
     }
 
     #class-photo-3 {
         margin: 0 400px 0 400px;
         height: 560px;
-
     }
 
     .about-classes {
@@ -465,6 +462,15 @@ h1 {
 
     .team-social-media {
         font-size: 70px;
+    }
+
+    #tymessage {
+        left: 32%;
+        font-size: 64px;
+    }
+
+    #tymessage p {
+        font-size: 43px;
     }
 
 }
