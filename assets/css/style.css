@@ -162,7 +162,7 @@ nav ul li {
     margin-top:69px;
 }
 
-.pages>.contact-section {
+.pages >.contact-section {
     position: absolute;
     top: 40%;
     left: 50%;
@@ -173,7 +173,7 @@ nav ul li {
     font-family: 'Comfortaa', cursive;
     color: black;
     padding-left: 2px;
-    background-color: white; /*see about border white white and see about font for vinyasa hatha etc.*/
+    background-color: white; 
     border: solid 2px white;
     height: fit-content;
     margin:0 10px 20px 10px;
@@ -239,7 +239,7 @@ section a {
 
 .Google-maps{
     width: 300px;
-    margin:20px 20px 20px 10px; /*Why the red wavy underscore line*/
+    margin:20px 20px 20px 10px; 
 }
 
 iframe {
@@ -277,9 +277,8 @@ iframe {
 }
 
 .hero-phrase>button:hover>a {
-    color: blue;
+    color: #05ae91;
 }
-
 
 #homepage-section {
     height: fit-content;
