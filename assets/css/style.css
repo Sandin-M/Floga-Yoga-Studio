@@ -24,11 +24,10 @@ header {
     display: flex;
     justify-content: space-between;
     align-items: baseline;
+}
 
-    #menu-bars {
-        font-size: 30px; /*Why do I get red wavy underline here?*/
-    }
-
+#menu-bars {
+    font-size: 30px;
 }
 
 #logo {
