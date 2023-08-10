@@ -370,7 +370,16 @@ h1 {
     }
 
     .about-classes {
-        margin: 0 80px 0 80px;
+        margin: 0 80px 15px 80px;
+        height:;
+    }
+
+    #tymessage {
+        left:11%;
+    }
+
+    #team-photo {
+        height:300px;
     }
 }
 
@@ -382,6 +391,23 @@ h1 {
         height: 270px;
     }
 
+    #tymessage {
+        left:20%;
+    }
+
+    .class-photo-divs {
+        margin: 0 120px 0 120px;
+        height:360px;
+    }
+
+    .about-classes {
+        margin: 0 120px 20px 120px;
+    }
+
+    .homepage-h2 {
+        font-size:50px;
+    }
+
 }
 
 /*Media query Desktop*/
@@ -390,6 +416,20 @@ h1 {
         width: 608px;
         margin-left: 278px;
         height: 317px;
+    }
+
+    #tymessage {
+        left:25%;
+    }
+
+    .class-photo-divs {
+        margin: 0 220px 0 220px;
+        height:360px;
+    }
+
+    .about-classes {
+        margin: 0 220px 20px 220px;
+
     }
 
 }
