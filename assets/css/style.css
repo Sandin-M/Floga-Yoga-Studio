@@ -352,6 +352,26 @@ h1 {
         margin-left: 125px;
         height: 250px;
     }
+
+    .class-photo-divs {
+        margin: 0 80px 0 80px;
+    }
+
+    #class-photo-1 {
+        height: 300px;
+    }
+
+    #class-photo-2 {
+        height: 300px;
+    }
+
+    #class-photo-3 {
+        height: 300px;
+    }
+
+    .about-classes {
+        margin: 0 80px 0 80px;
+    }
 }
 
 /*Media query Laptop*/

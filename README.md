@@ -1,39 +1,80 @@
-![CI logo](https://codeinstitute.s3.amazonaws.com/fullstack/ci_logo_small.png)
+# Floga
 
-Welcome,
+Floga is a site for a Yoga studio that hopes to encourage people to embrace the therapeutic powers of Yoga practices on the body. The studio which is located in Munich, Germany, thrives to bring people together to practice different Yoga styles and exercises for the well being of the mind and body.
+Floga site is targeted towards everyone who is interested in learning and practicing Yoga within a community of suportive people and instructors. It will be useful for all and everyone wishing to start a Yoga journey.
 
-This is the Code Institute student template for Codeanywhere. If you are using Gitpod then you need [this template](https://github.com/Code-Institute-Org/gitpod-full-template) instead.  We have preinstalled all of the tools you need to get started. It's perfectly ok to use this template as the basis for your project submissions.
+<--Insert mockup image here-->
 
-You can safely delete this README.md file, or change it for your own project. Please do read it at least once, though! It contains some important information about Codeanywhere and the extensions we use. Some of this information has been updated since the video content was created. The last update to this file was: **July 26th, 2023**
+## Features
 
-## Codeanywhere Reminders
+### Existing Features
 
-To run a frontend (HTML, CSS, Javascript only) application in Codeanywhere, in the terminal, type:
+- __Navigation Bar__
 
-`python3 -m http.server`
+- On the far right of all the pages, we have the responsive hamburger navigation bar. A click on this bar reveals links to navigate around the website like the Home, Classes, Contact and Thank you pages. The look and position of the navigation bar is consistent on all pages for easy exploration of the pages.
+- This section will allow the user to explore the website with from page to page without having to use the 'back' button. This section also contains the logo of the website which is on the top far left corner of the page.
 
-A button should appear to click: _Open Preview_ or _Open Browser_.
+ <---Insert navbar image here---->
 
-To run a frontend (HTML, CSS, Javascript only) application in Codeanywhere with no-cache, you can use this alias for `python3 -m http.server`.
+- __The Hero/Landing Page Image__
 
-`http_server`
+- The hero image consists of a lady doing Yoga by the sea side. Over this photograph there's a text overlay.
+- This section also includes a "Discover" button, upon clicking this button, it navigates the user to the Classes page, which reveals the various yoga classes available to be booked on the Floga website.
 
-To run a backend Python file, type `python3 app.py`, if your Python file is named `app.py` of course.
+<----Insert Hero Image here----->
 
-A button should appear to click: _Open Preview_ or _Open Browser_.
+- __The About Us Section__
 
-In Codeanywhere you have superuser security privileges by default. Therefore you do not need to use the `sudo` (superuser do) command in the bash terminal in any of the lessons.
+- This section contains a short introductory message about Floga. It describes Floga's motivations and the location of the studio.
+- This section also tells the user the benefits of practicing yoga and why they should sign up with Floga.
+- It also contains instructions on preferences and teacher relationship.
 
-To log into the Heroku toolbelt CLI:
+<---Insert About us section image here--->
 
-1. Log in to your Heroku account and go to _Account Settings_ in the menu under your avatar.
-2. Scroll down to the _API Key_ and click _Reveal_
-3. Copy the key
-4. In Codeanywhere, from the terminal, run `heroku_config`
-5. Paste in your API key when asked
+- __The Founder Section__
 
-You can now use the `heroku` CLI program - try running `heroku apps` to confirm it works. This API key is unique and private to you so do not share it. If you accidentally make it public then you can create a new one with _Regenerate API Key_.
+- The Founder section introduces the user to the founder of Floga. It explains his qualities and why he is best qualified to teach yoga to the users. This builds credibility and trust in the user ensuring that they are in capable hands.
+- The founder's motivation to start Floga is also included in this section.
+- The section contain's the founder's name and photograph.
 
----
+<---Insert Founder seection image here---->
 
-Happy coding!
+- __The Find Us Section__
+
+- In this section, we have included a map where the location of the Floga studio is pin pointed.
+- The map includes all the areas surrounding the studio and also + and - buttons which helps the user zoom in and out of the map.
+- This helps  the user to see the environs of the Floga studio, which makes it easier to locate the studio without any problems.
+
+<---Insert Find Us image here--->
+
+- __The Footer__
+
+- The footer section includes the street address, phone number and email address of Floga.
+- It also contains the links to the social media sites for Floga. Upon clicking the links, they open on another page for easy navigation.
+- The footer is useful to the user because it will help them keep in touch with Floga through various means.
+
+<---Insert Footer Image here--->
+
+- __The Classes Page__
+
+- This page exposes the user to the different yoga classes that are available for practice at Floga.
+- The page also explains each yoga class and their benefits.
+- There is also a "Team" section on the classes page which contains Floga founder, where he was born and where he trained as a Yogi.
+
+<--Image here--->
+
+- __The Contact Page__
+
+- This page consists of a form which requests for details of the users and any message they wish to send to Floga.
+
+- This page serves as a medium through which the user could ask any questions or reach out to the studio.
+- It requires the full name of the user for easy identification.
+
+<---Image here--->
+
+- __The Thank You Page__
+
+-This page contains a short thank you note to the user.
+
+- The page appreciates the user for contacting the studio and assures that they would get a response very soon.
+- This makes the user feel valued and appreeciated for the time and efforts spent on contacting Floga.
