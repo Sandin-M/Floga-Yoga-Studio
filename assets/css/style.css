@@ -39,7 +39,6 @@ header p {
     font-size: 50px;
     }
 
-
 main {
     flex-grow: 1;
     flex-shrink: 0;
@@ -147,7 +146,6 @@ h1 {
     margin-top: 10px;
 }
 
-
 nav ul li {
     margin-top: 2px;
     margin-bottom: 2px;
@@ -216,7 +214,6 @@ section a {
     background: url(../images/man.jpg) no-repeat center center/cover;
 }
 
-
 .about-text{
     margin-top: 20px;
 }
@@ -225,7 +222,6 @@ section a {
     margin-top: 10px;
     font-family: 'Comfortaa', sans-serif;
 }
-
 
 #founder{
     margin-top: 50px;
@@ -420,6 +416,37 @@ h1 {
 
     }
 
+}
+/*uhiug*/
+@media (min-width: 1700px) {
+    #about-photo {
+        height: 374px;
+        width: 671px;
+        margin-left: 522px;
+        }
+    
+    #class-photo-1 {
+        margin: 0 400px 0 400px;
+        height: 560px;
+        }
+    
+    #class-photo-2 {
+        margin: 0 400px 0 400px;
+        height: 560px;
+        }
+    
+    #class-photo-3 {
+        margin: 0 400px 0 400px;
+        height: 560px;
+        }
+    
+    .about-classes {
+        margin: 0 400px 30px 400px;
+    }
+
+    #team-photo {
+        margin: 0 400px 0px 400px;
+    }
 }
 
 @media (min-width:2200px) {
